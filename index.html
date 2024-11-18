@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Otyline Cleaning Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header and Navigation -->
+  <header>
+    <h1>Otyline Cleaning Services</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About Us</a>
+      <a href="#booking">Book a Cleaning</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Slideshow and Text Section -->
+<div class="slideshow-text-container">
+    <!-- Slideshow Column -->
+    <div class="slideshow-container">
+      <div class="slide fade">
+        <img src="fumu3.png" alt="Cleaning Service 1" style="width:100%">
+      </div>
+      <div class="slide fade">
+        <img src="fumu2.png" alt="Cleaning Service 2" style="width:100%">
+      </div>
+      <div class="slide fade">
+        <img src="fumu1.png" alt="Cleaning Service 3" style="width:100%">
+      </div>
+    </div>
+    
+    <!-- Text Column -->
+    <div class="slideshow-text">
+      <div class="text-content">
+        <h2>Professional Home Cleaning</h2>
+        <p>Experience top-quality home cleaning services with our dedicated team. We ensure your home is spotless, fresh, and welcoming.</p>
+      </div>
+      <div class="text-content">
+        <h2>Reliable Office Cleaning</h2>
+        <p>Our team specializes in reliable office cleaning services, designed to keep your workspace hygienic and professional.</p>
+      </div>
+      <div class="text-content">
+        <h2>Expert Carpet Cleaning</h2>
+        <p>Get deep-cleaned carpets with our expert carpet cleaning service, restoring freshness and cleanliness to your interiors.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h2>Your Clean Home is Just a Click Away</h2>
+    <p>Professional cleaning services for a spotless home and office experience.</p>
+    <button onclick="document.getElementById('booking').scrollIntoView()">Book Now</button>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service">
+      <h3>Home Cleaning</h3>
+      <p>Regular and deep cleaning to keep your home spotless.</p>
+    </div>
+    <div class="service">
+      <h3>Office Cleaning</h3>
+      <p>Professional cleaning for offices and commercial spaces.</p>
+    </div>
+    <div class="service">
+      <h3>Carpet Cleaning</h3>
+      <p>Advanced cleaning for carpets and upholstery.</p>
+    </div>
+    <div class="service">
+      <h3>Move-In/Out Cleaning</h3>
+      <p>Thorough cleaning to prepare your space for moving.</p>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a dedicated team of professional cleaners with years of experience in delivering quality cleaning services. Our mission is to provide our clients with a spotless experience, ensuring customer satisfaction with every job.</p>
+  </section>
+
+  <!-- Booking Section -->
+  <section id="booking">
+    <h2>Book a Cleaning Service</h2>
+    <form id="booking-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <input type="tel" id="phone" placeholder="Your Phone" required>
+      <input type="date" id="date" placeholder="Preferred Date" required>
+      <textarea id="details" placeholder="Additional Details"></textarea>
+      <button type="submit">Book Now</button>
+    </form>
+    <p id="booking-status"></p>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+      <p>"Spotless Cleaning Services transformed my home. I’ve never seen it this clean!"</p>
+      <p>- Sarah J.</p>
+    </div>
+    <div class="testimonial">
+      <p>"Professional, reliable, and affordable. Highly recommend for office cleaning."</p>
+      <p>- James L.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="contact-details">
+      <p>Email: info@otylinecleaning.com</p>
+      <p>Phone: +254702138829 OR +254713309463</p>
+      <p>Location: Rongo, Migori-Kenya</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Otyline Cleaning Services. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+      <a href="#">Whatsapp</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 4.5em; /* Add padding equal to header height to avoid overlap */
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ header {
+    background-color: #5a9;
+    color: white;
+    padding: 1.5em;
+    width: 100%;
+    text-align: center;
+    position: fixed; /* Makes the header static/fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures the header stays on top of other content */
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 1em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* Container for slideshow and text side by side */
+.slideshow-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 2em;
+    gap: 2em;
+    margin-top: 4.5em;
+  }
+  
+  /* Slideshow Column */
+  .slideshow-container {
+    width: 50%;
+    position: relative;
+    max-width: 600px;
+    margin-top: 4.5em;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Text Column */
+  .slideshow-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .text-content {
+    display: none;
+    text-align: left;
+  }
+  
+  .text-content h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .text-content p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  /* Fade effect for slideshow */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .slideshow-text-container {
+      flex-direction: column;
+    }
+    
+    .slideshow-container,
+    .slideshow-text {
+      width: 100%;
+    }
+  }
+  
+ /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    background-color: #5a9;
+    color: white;
+    padding: 1.5em;
+    width: 100%;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 1em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    width: 90%;
+    max-width: 800px;
+    margin: 2em 0;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  #hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 4em 1em;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #5a9;
+    color: white;
+    border: none;
+    padding: 0.75em 1.5em;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 0.75em;
+    margin: 0.5em 0;
+  }
+  
+  .testimonial {
+    background-color: #f1f1f1;
+    padding: 1em;
+    margin-top: 1em;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+  }
+  
+ 
